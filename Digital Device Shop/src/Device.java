@@ -3,7 +3,7 @@ public class Device {
     private String productType;
     private String productName;
     private double price;
-
+//Here are the three main parameters.
 
     public String getProductName() {
         return productName;
@@ -48,4 +48,7 @@ public class Device {
                 ", price=" + price +
                 '}';
     }
+
+
+
 }
