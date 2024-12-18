@@ -71,11 +71,11 @@ public class Store {
                     }
                 }
                 devices[devices.length - 1] = null;
-                System.out.println("Successfully delete!");
+                System.out.println("nothing is deleted!");
                 break;
             }//Delete the device successfully
             if(!changeDeviceName(name)){
-                System.out.println("nothing is deleted!");
+                System.out.println("Successfully deleted!");
                 break;
             }
         }
